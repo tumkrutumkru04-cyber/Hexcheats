@@ -12,8 +12,8 @@ COPY . /var/www/html/
 
 RUN mkdir -p /var/www/html/data \
     && chown -R www-data:www-data /var/www/html/data \
-    && chmod 750 /var/www/html/data \
-    && apachectl -t
+    && chmod 750 /var/www/html/data
 
-EXPOSE 80
-CMD ["apache2-foreground"]
+EXPOSE 8080
+
+CMD ["sh", "-c", "set -eu; PORT=\"${PORT:-8080}\"; for f in /etc/apache2/mods-enabled/mpm_*.load /etc/apache2/mods-enabled/mpm_*.conf; do [ -e \"$f\" ] || continue; case \"$f\" in *mpm_prefork*) ;; *) rm -f \"$f\" ;; esac; done; a2enmod mpm_prefork >/dev/null; sed -ri \"s/^Listen [0-9]+/Listen ${PORT}/\" /etc/apache2/ports.conf; sed -ri \"s/<VirtualHost \\*:80>/<VirtualHost *:${PORT}>/\" /etc/apache2/sites-enabled/000-default.conf; apachectl -t; exec apache2-foreground"]

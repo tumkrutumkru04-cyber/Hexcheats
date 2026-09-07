@@ -1,0 +1,73 @@
+/* Shared public-page styling: simple, thin, Bootstrap-friendly. */
+:root {
+    --hp-primary: #0d6efd;
+    --hp-primary-hover: #0b5ed7;
+    --hp-bg: #f5f7fb;
+    --hp-card: #ffffff;
+    --hp-border: #e2e7ef;
+    --hp-muted: #6c757d;
+    --hp-text: #1f2937;
+}
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { color: var(--hp-text); background: var(--hp-bg); font-family: Inter, system-ui, -apple-system, "Segoe UI", sans-serif; }
+.public-navbar { background: rgba(255,255,255,.96) !important; border-bottom: 1px solid var(--hp-border); box-shadow: 0 1px 8px rgba(31,41,55,.04); }
+.public-navbar .navbar-brand { color: var(--hp-primary); letter-spacing: .01em; }
+.public-navbar .navbar-brand img { width: 31px; height: 31px; object-fit: cover; border-radius: 8px; }
+.public-navbar .nav-link { color: #4b5563; font-size: .9rem; border-radius: 7px; padding: .45rem .7rem; }
+.public-navbar .nav-link:hover, .public-navbar .nav-link.active { color: var(--hp-primary); background: #eef5ff; }
+.public-main { min-height: calc(100vh - 145px); padding: 38px 0 54px; }
+.public-footer { background: #fff; border-top: 1px solid var(--hp-border); color: #6b7280; }
+.public-footer a { color: #6b7280; text-decoration: none; }
+.public-footer a:hover { color: var(--hp-primary); }
+.card { border: 1px solid var(--hp-border); border-radius: 12px; box-shadow: 0 5px 18px rgba(31,41,55,.045); }
+.card-primary.card-outline { border-top: 3px solid var(--hp-primary); }
+.card-header { background: transparent; border-bottom: 1px solid var(--hp-border); }
+.card-title { font-size: 1.05rem; font-weight: 650; margin: 0; }
+.card-subtitle { color: var(--hp-muted); font-size: .84rem; }
+.form-label { font-size: .84rem; font-weight: 600; color: #374151; }
+.form-control, .form-select, .input-group-text { border-color: #d7dee8; font-size: .9rem; }
+.form-control:focus, .form-select:focus { border-color: #86b7fe; box-shadow: 0 0 0 .18rem rgba(13,110,253,.12); }
+.btn { border-radius: 7px; font-size: .88rem; }
+.btn-primary { background: var(--hp-primary); border-color: var(--hp-primary); }
+.btn-primary:hover { background: var(--hp-primary-hover); border-color: var(--hp-primary-hover); }
+.btn-outline-primary:hover { background: var(--hp-primary); }
+.public-hero { background: linear-gradient(180deg, #fff, #f8fbff); border: 1px solid var(--hp-border); border-radius: 14px; padding: 25px 28px; }
+.public-hero h1 { font-size: clamp(1.7rem, 3vw, 2.35rem); font-weight: 700; letter-spacing: -.025em; margin-bottom: .55rem; }
+.public-hero p { color: var(--hp-muted); margin-bottom: 0; line-height: 1.65; }
+.public-kicker { color: var(--hp-primary); font-size: .72rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.public-feature { height: 100%; padding: 17px; background: #fff; border: 1px solid var(--hp-border); border-radius: 10px; }
+.public-feature i { color: var(--hp-primary); font-size: 1.1rem; }
+.public-feature h3 { font-size: .93rem; font-weight: 650; margin: 10px 0 5px; }
+.public-feature p { color: var(--hp-muted); font-size: .79rem; margin: 0; line-height: 1.55; }
+.auth-page { min-height: 100vh; padding-top: 78px; display: flex; flex-direction: column; }
+.auth-wrap { flex: 1; display: flex; align-items: center; justify-content: center; padding: 35px 16px 45px; }
+.auth-box { max-width: 410px; width: 100%; }
+.auth-brand { text-align: center; margin-bottom: 17px; }
+.auth-brand img { width: 45px; height: 45px; object-fit: cover; border-radius: 12px; margin-bottom: 8px; }
+.auth-brand h1 { font-size: 1.35rem; font-weight: 700; margin: 0; }
+.auth-brand p { color: var(--hp-muted); font-size: .82rem; margin: 5px 0 0; }
+.auth-card .card-body { padding: 24px; }
+.auth-note { background: #f8fafc; border: 1px solid var(--hp-border); border-radius: 8px; padding: 10px 12px; color: var(--hp-muted); font-size: .76rem; }
+.result-card { max-width: 620px; margin: 0 auto; }
+.result-key { background: #f8fafc; border: 1px dashed #b7c6db; border-radius: 8px; padding: 13px; font: 600 1rem ui-monospace, SFMono-Regular, Menlo, monospace; color: #1e3a66; word-break: break-word; }
+.apk-icon-lg { width: 62px; height: 62px; object-fit: cover; border-radius: 10px; }
+.apk-icon-sm { width: 40px; height: 40px; object-fit: cover; border-radius: 7px; }
+.apk-card { height: 100%; }
+.apk-card .card-footer { background: transparent; border-top: 1px solid var(--hp-border); }
+.page-heading { margin-bottom: 22px; }
+.page-heading h1 { font-size: 1.65rem; font-weight: 700; margin: 0 0 5px; }
+.page-heading p { color: var(--hp-muted); margin: 0; font-size: .88rem; }
+[data-bs-theme="dark"] { --hp-bg: #17191d; --hp-card: #23262b; --hp-border: #373c44; --hp-muted: #aab1bb; --hp-text: #edf0f4; }
+[data-bs-theme="dark"] body { background: var(--hp-bg); color: var(--hp-text); }
+[data-bs-theme="dark"] .public-navbar, [data-bs-theme="dark"] .public-footer { background: #202328 !important; border-color: var(--hp-border); }
+[data-bs-theme="dark"] .public-navbar .navbar-brand, [data-bs-theme="dark"] .public-navbar .nav-link { color: #e7ebf2; }
+[data-bs-theme="dark"] .public-navbar .nav-link:hover, [data-bs-theme="dark"] .public-navbar .nav-link.active { color: #86b7fe; background: #2b3543; }
+[data-bs-theme="dark"] .card, [data-bs-theme="dark"] .public-feature { background: var(--hp-card); border-color: var(--hp-border); }
+[data-bs-theme="dark"] .public-hero { background: linear-gradient(180deg, #262b32, #202328); border-color: var(--hp-border); }
+[data-bs-theme="dark"] .form-label { color: #d7dce5; }
+[data-bs-theme="dark"] .form-control, [data-bs-theme="dark"] .form-select, [data-bs-theme="dark"] .input-group-text { background: #2b2f35; border-color: #4a515b; color: #f4f6f8; }
+[data-bs-theme="dark"] .form-select option { color: #111827; background: #fff; }
+[data-bs-theme="dark"] .auth-note, [data-bs-theme="dark"] .result-key { background: #2a2e34; border-color: #49515c; color: #dce4f0; }
+[data-bs-theme="dark"] .text-muted, [data-bs-theme="dark"] .public-feature p, [data-bs-theme="dark"] .page-heading p { color: var(--hp-muted) !important; }
+@media (max-width: 575px) { .public-main { padding-top: 24px; } .public-hero { padding: 21px; } .auth-card .card-body { padding: 20px; } .public-navbar .navbar-brand { font-size: .98rem; } }

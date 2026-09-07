@@ -27,7 +27,7 @@ define('MAX_JSON_BYTES', 5 * 1024 * 1024);
 // Keep this token server-side. Prefer setting VPLINK_API_TOKEN in the hosting environment;
 // the fallback keeps the cPanel deployment working when environment variables are unavailable.
 define('VPLINK_API_TOKEN', getenv('VPLINK_API_TOKEN') ?: 'd7810ac0d2e7108510fd6fa8c124a2fc927ceaea');
-define('PUBLIC_BASE_URL', rtrim(getenv('HEX_PUBLIC_BASE_URL') ?: 'https://hexcheats.freecpanel.shop', '/'));
+define('PUBLIC_BASE_URL', rtrim(getenv('HEX_PUBLIC_BASE_URL') ?: 'https://hexcheats-production.up.railway.app', '/'));
 
 if (!is_dir(DATA_DIR)) {
     @mkdir(DATA_DIR, 0750, true);

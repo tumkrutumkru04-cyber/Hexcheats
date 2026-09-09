@@ -47,7 +47,7 @@ $activeApps = array_values(array_filter($apps['applications'] ?? [], function ($
                                 <div class="row g-3">
                                     <div class="col-md-6"><label for="app_id" class="form-label">Application</label><select name="app_id" id="app_id" class="form-select" required><option value="">Select Application</option><?php foreach ($activeApps as $app): ?><option value="<?php echo (int)$app['id']; ?>"><?php echo htmlspecialchars($app['name']); ?></option><?php endforeach; ?></select></div>
                                     <div class="col-md-6"><label for="max_devices" class="form-label">Devices</label><div class="input-group"><input type="number" name="max_devices" id="max_devices" class="form-control" value="1" disabled><span class="input-group-text">device</span></div></div>
-                                    <div class="col-md-6"><label for="duration" class="form-label">Duration</label><select name="duration" id="duration" class="form-select" disabled><option value="5" selected>5 Hours</option></select></div>
+                                    <div class="col-md-6"><label for="duration" class="form-label">Duration</label><select name="duration" id="duration" class="form-select" disabled><option value="5" selected>10 Hours</option></select></div>
                                     <div class="col-md-6"><label for="vip_key" class="form-label">Key Type</label><select name="vip_key" id="vip_key" class="form-select" disabled><option value="1" selected>FREE</option></select></div>
                                 </div>
                                 <div id="validationResult" class="mt-3" role="status" aria-live="polite"></div>

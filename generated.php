@@ -11,7 +11,7 @@ if ($handoff) unset($_SESSION['key_handoffs'][$handoffToken]);
 $payload = is_array($handoff['payload'] ?? null) ? $handoff['payload'] : [];
 $key = (string)($payload['key'] ?? '');
 $game = (string)($payload['game'] ?? 'Application');
-$duration = (string)($payload['duration_value'] ?? '5');
+$duration = (string)($payload['duration_value'] ?? '10');
 $devices = (string)($payload['max_devices'] ?? '1');
 $validity = (string)($payload['validity_range'] ?? $payload['validity'] ?? '5 Hours to 10 Hours');
 $app = (string)($payload['app_name'] ?? 'HEX PROTOCOL');

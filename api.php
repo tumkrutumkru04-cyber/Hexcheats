@@ -89,7 +89,7 @@ function handleGenerate() {
     updateUserCooldown($ip, $appId);
     recordAudit('license_generated', ['app_id' => $appId, 'app_name' => cleanText($app['name'] ?? '', 120)]);
 
-    $durationValue = max(1, (int)($apiResponse['duration_value'] ?? 5));
+    $durationValue = 10;
     $maxDevices = max(1, (int)($apiResponse['max_devices'] ?? 1));
     $handoff = createKeyHandoff([
         'key' => $key,

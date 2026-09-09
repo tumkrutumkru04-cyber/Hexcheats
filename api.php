@@ -46,6 +46,7 @@ exit;
 function handleGenerate() {
     $guard = requestGuard('public');
     if ($guard) return $guard;
+    if (!empty(settings()['api_maintenance'])) return ['success' => false, 'error' => 'Key API is temporarily under maintenance. Please try again later.'];
     if (isIpBlocked()) return ['success' => false, 'error' => 'Access temporarily restricted'];
 
     $appId = filter_input(INPUT_POST, 'app_id', FILTER_VALIDATE_INT);
@@ -97,7 +98,8 @@ function handleGenerate() {
         'duration_type' => cleanText($apiResponse['duration_type'] ?? 'hours', 30),
         'app_name' => cleanText($app['name'] ?? '', 120),
         'game' => cleanText($app['game'] ?? '', 120),
-        'validity' => cleanText($apiResponse['validity'] ?? '5 Hours', 80),
+        'validity' => cleanText($apiResponse['validity'] ?? '5 Hours to 10 Hours', 80),
+        'validity_range' => '5 Hours to 10 Hours',
         'expires_at' => cleanText($apiResponse['expires_at'] ?? '', 80),
         'max_devices' => $maxDevices
     ]);
@@ -253,6 +255,7 @@ function handleUpdateSecurity() {
     foreach (preg_split('/[\s,]+/', $allowlist, -1, PREG_SPLIT_NO_EMPTY) as $ip) if (filter_var($ip, FILTER_VALIDATE_IP)) $security['admin_ip_allowlist'][] = $ip;
     $settings['security'] = $security;
     $settings['maintenance_mode'] = !empty($_POST['maintenance_mode']);
+    $settings['api_maintenance'] = !empty($_POST['api_maintenance']);
     $settings['public_generation_enabled'] = !empty($_POST['public_generation_enabled']);
     $settings['cooldown_minutes'] = min(1440, max(1, (int)($_POST['cooldown_minutes'] ?? 5)));
     $settings['referral_code'] = cleanText($_POST['referral_code'] ?? ($settings['referral_code'] ?? ''), 80);

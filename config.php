@@ -71,6 +71,7 @@ function getDefaultSettings() {
         'cooldown_minutes' => 5,
         'referral_code' => 'HEX2024',
         'maintenance_mode' => false,
+        'api_maintenance' => false,
         'public_generation_enabled' => true,
         'security' => [
             'rate_limit_enabled' => true,

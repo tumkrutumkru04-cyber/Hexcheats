@@ -1,0 +1,4066 @@
+{
+    "events": [
+        {
+            "event": "audit_log_cleared",
+            "details": [],
+            "ip": "2401:4900:61a5:b905:c8cc:d950:17a1:14d1",
+            "created": "2026-09-12 10:59:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:61a5:b905:c8cc:d950:17a1:14d1",
+            "created": "2026-09-12 11:01:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:605f:a415:8000::",
+            "created": "2026-09-12 11:13:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:1900:80dc:45b8::1",
+            "created": "2026-09-12 11:25:55"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:2022:e908:8000::",
+            "created": "2026-09-12 11:39:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b7b7:53f0:a447:116a:48ba:5659",
+            "created": "2026-09-12 11:42:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:b7b7:53f0:a447:116a:48ba:5659",
+            "created": "2026-09-12 11:43:33"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.89.26.213",
+            "created": "2026-09-12 11:44:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "49.42.137.239",
+            "created": "2026-09-12 11:45:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.89.26.213",
+            "created": "2026-09-12 11:47:13"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5605:fc2a:8b5e:18fa:bf5d:271f",
+            "created": "2026-09-12 11:48:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.89.26.213",
+            "created": "2026-09-12 11:49:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:44db:3f9:e12c:e558:4527:3fa3",
+            "created": "2026-09-12 11:51:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:1900:80dc:45b8::1",
+            "created": "2026-09-12 11:53:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.89.26.213",
+            "created": "2026-09-12 11:54:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:5431:ae2a:8000::",
+            "created": "2026-09-12 11:55:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:bf52:9589:a56c:df7f:6ded:5443",
+            "created": "2026-09-12 11:57:36"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:3626:935:2:1:6589:3219",
+            "created": "2026-09-12 12:03:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2719:47d8:6378:cb08:d39c:154b",
+            "created": "2026-09-12 12:05:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:b7c7:7cc1:6313:b899:2019:1e5a",
+            "created": "2026-09-12 12:06:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:7594:c7f4:982e:b6ff:fe1b:6942",
+            "created": "2026-09-12 12:12:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:a88c:4f6f::18d7:4d09",
+            "created": "2026-09-12 12:23:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "45.14.209.148",
+            "created": "2026-09-12 12:27:41"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:8100:2648:72eb:33e1:2633:1aa:3416",
+            "created": "2026-09-12 12:43:26"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-12 12:47:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:48:54b:8000::",
+            "created": "2026-09-12 12:51:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:100d:5565:cced:bc86:e965:46a5",
+            "created": "2026-09-12 12:56:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6411:deaa:d46e:3bff:fea3:f68e",
+            "created": "2026-09-12 12:57:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e1:1069:feee:1497:34ff:fe6d:16fd",
+            "created": "2026-09-12 12:59:33"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2400:c600:5508:39e1:85d7:32a7:50c7:5c1d",
+            "created": "2026-09-12 13:00:24"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.89.26.213",
+            "created": "2026-09-12 13:01:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2719:47d8:6378:cb08:d39c:154b",
+            "created": "2026-09-12 13:02:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c2:6052:1ad4:f08e:3b28:6593:1b54",
+            "created": "2026-09-12 13:04:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2a09:bac1:b40:8::3c4:14",
+            "created": "2026-09-12 13:07:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2400:c600:5508:39e1::1",
+            "created": "2026-09-12 13:14:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e3:15:f8e5:8000::",
+            "created": "2026-09-12 13:17:52"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2648:72eb:2950:a3cd:6056:ec1",
+            "created": "2026-09-12 13:20:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a188:c4dc:8c74:bfff:feaf:d356",
+            "created": "2026-09-12 13:25:00"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a188:c4dc:8c74:bfff:feaf:d356",
+            "created": "2026-09-12 13:26:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-12 13:29:41"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "116.71.9.255",
+            "created": "2026-09-12 13:33:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-12 13:36:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4053:2eb7:d613:1188:f3e:4503:5685",
+            "created": "2026-09-12 13:39:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "202.37.53.233",
+            "created": "2026-09-12 13:39:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:5c7e:cdee::c2e:b421",
+            "created": "2026-09-12 13:40:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5c7e:cdee::c2e:b421",
+            "created": "2026-09-12 13:42:52"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c4:3033:fe67:8000::",
+            "created": "2026-09-12 13:45:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e1:cc:59e5:84de:5ff:fe6b:6753",
+            "created": "2026-09-12 13:46:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6411:deaa:d46e:3bff:fea3:f68e",
+            "created": "2026-09-12 13:47:29"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6411:deaa:d46e:3bff:fea3:f68e",
+            "created": "2026-09-12 13:49:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5605:fc2a:8b5e:18fa:bf5d:271f",
+            "created": "2026-09-12 13:53:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5c7e:cdee::c2e:b421",
+            "created": "2026-09-12 13:53:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:c0fe:54ed:cdf5:49d6:3213:9fc4",
+            "created": "2026-09-12 14:01:16"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a188:c4dc:f8ea:acff:fe61:6063",
+            "created": "2026-09-12 14:03:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:7594:c7f4:982e:b6ff:fe1b:6942",
+            "created": "2026-09-12 14:03:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "144.79.139.225",
+            "created": "2026-09-12 14:04:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "144.79.139.225",
+            "created": "2026-09-12 14:05:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.126.173.211",
+            "created": "2026-09-12 14:05:52"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:cc45:c271:5b4:d44c:b54f:d0c1",
+            "created": "2026-09-12 14:11:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:cc45:c271:5b4:d44c:b54f:d0c1",
+            "created": "2026-09-12 14:12:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4050:2d80:d3c8:c44f:2aff:fe66:5f4a",
+            "created": "2026-09-12 14:12:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-12 14:15:35"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b006:9754:d7fd:2d65:5c21:a5da",
+            "created": "2026-09-12 14:17:29"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c1:401d:dbf5:8000::",
+            "created": "2026-09-12 14:19:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:27b1:96a5:e2da:3236:4050:2fbb",
+            "created": "2026-09-12 14:28:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:84dd:3dfd:27df:fb41:cc96:667e",
+            "created": "2026-09-12 14:28:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:84dd:3dfd:27df:fb41:cc96:667e",
+            "created": "2026-09-12 14:29:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:27b1:96a5:e2da:3236:4050:2fbb",
+            "created": "2026-09-12 14:30:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6052:1ad4:f08e:3b28:6593:1b54",
+            "created": "2026-09-12 14:31:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:3b:3b4a:8000::",
+            "created": "2026-09-12 14:33:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:3b:3b4a:8000::",
+            "created": "2026-09-12 14:35:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:bc71:9d8a::3884:ce30",
+            "created": "2026-09-12 14:37:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:4a:c69f:8000::",
+            "created": "2026-09-12 14:39:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "112.110.61.207",
+            "created": "2026-09-12 14:42:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:8100:2cf8:143a:6499:6dff:fed3:d0b4",
+            "created": "2026-09-12 14:49:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "144.48.108.81",
+            "created": "2026-09-12 14:51:51"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:38c0:993:2eba:7329:50d1:d343",
+            "created": "2026-09-12 14:55:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.184.192.61",
+            "created": "2026-09-12 14:56:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "46.251.213.205",
+            "created": "2026-09-12 14:59:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "117.225.96.142",
+            "created": "2026-09-12 15:01:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.231.228.217",
+            "created": "2026-09-12 15:02:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.231.228.217",
+            "created": "2026-09-12 15:05:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.184.192.61",
+            "created": "2026-09-12 15:08:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1047:e5be:8000::",
+            "created": "2026-09-12 15:08:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.133.141.57",
+            "created": "2026-09-12 15:16:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.133.141.57",
+            "created": "2026-09-12 15:21:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:8100:2209:fee5::dc4:993b",
+            "created": "2026-09-12 15:26:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:8100:2209:fee5::dc4:993b",
+            "created": "2026-09-12 15:29:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.133.141.57",
+            "created": "2026-09-12 15:30:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2404:c0:dc03:2418:8e01:a3c0:c997:328c",
+            "created": "2026-09-12 15:41:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:1195:b6be::d4d:8ec2",
+            "created": "2026-09-12 15:43:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:3da3:97ac::62b:dca2",
+            "created": "2026-09-12 15:44:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:1195:b6be::d4d:8ec2",
+            "created": "2026-09-12 15:44:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a188:c4dc:1c95:b6ff:fe11:bb6c",
+            "created": "2026-09-12 15:45:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2a02:6ea0:ce14:3033::13",
+            "created": "2026-09-12 15:47:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c1:401d:dbf5:8000::",
+            "created": "2026-09-12 15:49:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6044:ac01:8000::",
+            "created": "2026-09-12 15:53:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6044:ac01:8000::",
+            "created": "2026-09-12 15:56:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6044:ac01:8000::",
+            "created": "2026-09-12 15:57:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6044:ac01:8000::",
+            "created": "2026-09-12 16:05:37"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:61a5:b905::a27:5fbd",
+            "created": "2026-09-12 16:08:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c2:8053:8e1c:e984:9dce:d891:73af",
+            "created": "2026-09-12 16:09:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:8053:8e1c:e984:9dce:d891:73af",
+            "created": "2026-09-12 16:10:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c2:8053:8e1c:e984:9dce:d891:73af",
+            "created": "2026-09-12 16:11:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d0:2474:186d:8000::",
+            "created": "2026-09-12 16:12:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e6:246:ee7e:cc0c:5415:e4fc:8bcc",
+            "created": "2026-09-12 16:19:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e6:246:ee7e:cc0c:5415:e4fc:8bcc",
+            "created": "2026-09-12 16:28:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "150.129.44.245",
+            "created": "2026-09-12 16:32:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6009:e96b:f08e:3b28:6593:1b54",
+            "created": "2026-09-12 16:34:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.231.228.217",
+            "created": "2026-09-12 16:52:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e0:2f:9f03:8000::",
+            "created": "2026-09-12 17:22:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-12 17:27:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-12 17:28:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-12 17:33:00"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e0:4:aa21:8000::",
+            "created": "2026-09-12 17:35:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-12 17:42:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-12 17:44:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "59.152.57.215",
+            "created": "2026-09-12 17:48:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "59.152.57.215",
+            "created": "2026-09-12 17:51:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "59.152.57.215",
+            "created": "2026-09-12 17:52:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "152.56.245.114",
+            "created": "2026-09-12 18:13:35"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e1:4056:ef04:8000::",
+            "created": "2026-09-12 18:15:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:b404:1d4f:7c53:32f6:796f:d49d",
+            "created": "2026-09-12 19:08:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:31d7:53a4:e589:68af:e53c:e212",
+            "created": "2026-09-12 19:12:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:f75:9fe3:41b3:9097:e177:76ef",
+            "created": "2026-09-12 19:12:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:f75:9fe3:41b3:9097:e177:76ef",
+            "created": "2026-09-12 19:14:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:f75:9fe3:41b3:9097:e177:76ef",
+            "created": "2026-09-12 19:15:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:101f:f041:8000::",
+            "created": "2026-09-12 19:16:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "106.76.200.241",
+            "created": "2026-09-12 19:18:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:1900:1c9:5ab::1",
+            "created": "2026-09-12 19:32:33"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:37:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "45.71.189.2",
+            "created": "2026-09-12 19:38:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c1:10bd:176b:3490:41aa:70e2:2a62",
+            "created": "2026-09-12 19:38:28"
+        },
+        {
+            "event": "application_updated",
+            "details": {
+                "id": 3,
+                "name": "HEX CIPHER PROXY",
+                "status": "active"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:38:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40d2:57:d20:8000::",
+            "created": "2026-09-12 19:39:31"
+        },
+        {
+            "event": "application_updated",
+            "details": {
+                "id": 1,
+                "name": "HEX CHEATS XOS",
+                "status": "active"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:39:38"
+        },
+        {
+            "event": "application_updated",
+            "details": {
+                "id": 3,
+                "name": "HEX CIPHER PROXY",
+                "status": "active"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:39:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:884b:6f2e:29b6:80e5:1b5d:f937",
+            "created": "2026-09-12 19:40:16"
+        },
+        {
+            "event": "application_updated",
+            "details": {
+                "id": 1,
+                "name": "HEX CHEATS XOS",
+                "status": "inactive"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:40:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:40:37"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 19:43:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:884b:6f2e:29b6:80e5:1b5d:f937",
+            "created": "2026-09-12 19:46:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "116.58.203.17",
+            "created": "2026-09-12 19:49:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b404:1d4f:7c53:32f6:796f:d49d",
+            "created": "2026-09-12 19:51:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 20:00:55"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:61a5:b905:19b4:42d7:65f5:a31b",
+            "created": "2026-09-12 20:07:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:101f:f041:8000::",
+            "created": "2026-09-12 20:10:16"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "116.58.203.206",
+            "created": "2026-09-12 20:15:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:1010:61c2:a012:c2ff:fee4:3e2c",
+            "created": "2026-09-12 20:31:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e1:10f2:117c:8000::",
+            "created": "2026-09-12 20:38:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5610:2e14:27eb:8d99:dde8:295d",
+            "created": "2026-09-12 20:43:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:6585:21c2:78dd:ea36:1733:2c44",
+            "created": "2026-09-12 20:44:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "152.59.38.37",
+            "created": "2026-09-12 20:44:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:6585:21c2:78dd:ea36:1733:2c44",
+            "created": "2026-09-12 20:46:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:6585:21c2:78dd:ea36:1733:2c44",
+            "created": "2026-09-12 20:50:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:18:508e:7a10:18d4:acb5:7c05:d192",
+            "created": "2026-09-12 20:56:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e5:11b0:cbfa:8000::",
+            "created": "2026-09-12 21:15:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:aa0a:c295:4668:bb9c:bc94:2fd6",
+            "created": "2026-09-12 21:21:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "139.64.4.214",
+            "created": "2026-09-12 21:53:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "139.64.4.214",
+            "created": "2026-09-12 21:55:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "135.136.5.89",
+            "created": "2026-09-12 22:32:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.141.64.165",
+            "created": "2026-09-12 22:49:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.140.235.59",
+            "created": "2026-09-12 22:50:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2a09:bac1:b00:8::279:74",
+            "created": "2026-09-12 22:50:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2a09:bac5:495:18d2::279:74",
+            "created": "2026-09-12 22:50:48"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:768b:34bd:6edd:487:fcb9:944b",
+            "created": "2026-09-12 23:18:16"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:ad47:4373:8b6c:23f7:72e3:b9c3",
+            "created": "2026-09-12 23:44:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:6048:62ec:8000::",
+            "created": "2026-09-12 23:47:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.190.229.65",
+            "created": "2026-09-12 23:51:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "1.39.122.207",
+            "created": "2026-09-13 00:09:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.10.54.8",
+            "created": "2026-09-13 00:09:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c4:3158:db21:8000::",
+            "created": "2026-09-13 00:11:26"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.10.54.8",
+            "created": "2026-09-13 00:11:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "1.39.122.207",
+            "created": "2026-09-13 00:12:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c4:3158:db21:8000::",
+            "created": "2026-09-13 00:12:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c4:3158:db21:8000::",
+            "created": "2026-09-13 00:13:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:701c:8b21:c08e:64ff:fe58:68e1",
+            "created": "2026-09-13 00:18:55"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4063:4b37:5ba2::db0a:c412",
+            "created": "2026-09-13 00:27:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2404:c0:dc03:2418:8e01:a3c0:c997:328c",
+            "created": "2026-09-13 00:28:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4063:4b37:5ba2::db0a:c412",
+            "created": "2026-09-13 00:34:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e3:33:342f:8000::",
+            "created": "2026-09-13 00:36:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:772d:f500:a931:7e9f:a1b7:f886",
+            "created": "2026-09-13 00:38:39"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f3:2001:2ca3:dcd1:b44d:7a8e:7224",
+            "created": "2026-09-13 00:38:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4720:614b:4c93:c3ff:fe92:5a1f",
+            "created": "2026-09-13 00:40:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e3:501a:9b5c:8000::",
+            "created": "2026-09-13 00:43:36"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:772d:f500:a931:7e9f:a1b7:f886",
+            "created": "2026-09-13 00:44:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4720:614b:4c93:c3ff:fe92:5a1f",
+            "created": "2026-09-13 00:44:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:772d:f500:a931:7e9f:a1b7:f886",
+            "created": "2026-09-13 00:45:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.188.152.241",
+            "created": "2026-09-13 00:47:39"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4720:614b:4c93:c3ff:fe92:5a1f",
+            "created": "2026-09-13 00:49:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "106.222.159.26",
+            "created": "2026-09-13 00:49:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:baf1:eaf0:7d55:4886:a753:4959",
+            "created": "2026-09-13 00:52:00"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "106.222.159.26",
+            "created": "2026-09-13 00:53:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "46.251.204.153",
+            "created": "2026-09-13 00:56:13"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:113c:e9aa:8000::",
+            "created": "2026-09-13 00:56:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b3ec:d273:6c47:eac7:699d:c084",
+            "created": "2026-09-13 00:59:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "152.59.38.37",
+            "created": "2026-09-13 01:03:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "49.15.99.166",
+            "created": "2026-09-13 01:05:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7591:affe::15e:a410",
+            "created": "2026-09-13 01:06:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:113c:e9aa:8000::",
+            "created": "2026-09-13 01:08:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "152.59.38.37",
+            "created": "2026-09-13 01:09:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "49.15.99.166",
+            "created": "2026-09-13 01:09:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:2043:eb46:4c25:81ff:febb:36bd",
+            "created": "2026-09-13 01:14:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:5460:6274:8000::",
+            "created": "2026-09-13 01:14:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40f2:2043:eb46:4c25:81ff:febb:36bd",
+            "created": "2026-09-13 01:15:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:1274:5954:8000::",
+            "created": "2026-09-13 01:15:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:2043:eb46:4c25:81ff:febb:36bd",
+            "created": "2026-09-13 01:17:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b358:2ea0:e038:3aff:feb0:5318",
+            "created": "2026-09-13 01:23:36"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:2043:eb46:902b:f0ff:fee4:7f47",
+            "created": "2026-09-13 01:34:10"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40f2:2043:eb46:902b:f0ff:fee4:7f47",
+            "created": "2026-09-13 01:38:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "152.58.107.91",
+            "created": "2026-09-13 01:38:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4050:2d80:d3c8:c44f:2aff:fe66:5f4a",
+            "created": "2026-09-13 01:42:14"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 01:42:52"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:4152:5c7:5596:335b:bf30:c7d0",
+            "created": "2026-09-13 01:43:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 01:46:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:93e9:f0d3:7fc5:5cb8:f794:aaca",
+            "created": "2026-09-13 01:48:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1047:e5be:8000::",
+            "created": "2026-09-13 01:50:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:101c:82ce:f899:eaff:fe05:b76b",
+            "created": "2026-09-13 01:56:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40f2:101c:82ce:f899:eaff:fe05:b76b",
+            "created": "2026-09-13 01:59:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5d90:3b17:0:3c:506f:5c01",
+            "created": "2026-09-13 01:59:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:00:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:5460:6274:8000::",
+            "created": "2026-09-13 02:01:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:03:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e5:1b:93a8:8000::",
+            "created": "2026-09-13 02:05:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b869:c55e::af3c:159",
+            "created": "2026-09-13 02:09:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:1b:93a8:8000::",
+            "created": "2026-09-13 02:11:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7591:affe::15e:a410",
+            "created": "2026-09-13 02:15:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2726:3c77:c872:23b0:f281:8849",
+            "created": "2026-09-13 02:18:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4720:614b:4c93:c3ff:fe92:5a1f",
+            "created": "2026-09-13 02:22:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:22:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e4:1006:6a08:8000::",
+            "created": "2026-09-13 02:24:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5629:d008:4209:c278:25e0:9a5f",
+            "created": "2026-09-13 02:25:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:26:39"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:30:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4042:4c4d:e081::4d0b:c002",
+            "created": "2026-09-13 02:32:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:33:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:471c:8a49:878:5634:1232:5476",
+            "created": "2026-09-13 02:36:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:36:35"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4062:4d3b:3d40:74f7:ebff:febc:9588",
+            "created": "2026-09-13 02:38:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "1.187.217.3",
+            "created": "2026-09-13 02:39:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:1906:977b:14b0:f4bf:3752:87fb",
+            "created": "2026-09-13 02:48:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2cda:6d93:1cdb:40ff:fe59:9648",
+            "created": "2026-09-13 02:56:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:241f:537d:305f:98ff:fe10:1a7f",
+            "created": "2026-09-13 02:59:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:1967:7a55:5007:15af:9080:52f6",
+            "created": "2026-09-13 03:01:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:caf:e012:4861:9379:457e:b01b",
+            "created": "2026-09-13 03:07:33"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:d08b:56e1:7436:bfff:fea1:5a95",
+            "created": "2026-09-13 03:11:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b358:2ea0:e038:3aff:feb0:5318",
+            "created": "2026-09-13 03:11:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:b358:2ea0:e038:3aff:feb0:5318",
+            "created": "2026-09-13 03:12:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2404:7c80:85:924d:ec18:2e15:d4b2:89c2",
+            "created": "2026-09-13 03:14:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:b57e:8026:2ce9:424b:ff2b:f90b",
+            "created": "2026-09-13 03:20:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7619:f2f3:cbaa:7cb8:d5fe:7bc0",
+            "created": "2026-09-13 03:25:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7619:f2f3:cbaa:7cb8:d5fe:7bc0",
+            "created": "2026-09-13 03:28:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.106.241.94",
+            "created": "2026-09-13 03:44:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:247:84fd:278:5634:1232:5476",
+            "created": "2026-09-13 03:44:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.78.200.14",
+            "created": "2026-09-13 03:50:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:1900:156:bd9::1",
+            "created": "2026-09-13 03:51:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2283:a5d8::e06:64b5",
+            "created": "2026-09-13 03:54:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "106.77.160.144",
+            "created": "2026-09-13 03:56:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "144.79.139.225",
+            "created": "2026-09-13 03:58:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:57bc:1bc1:8e7d:49e7:6bad:e5c7",
+            "created": "2026-09-13 04:00:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:b782:e1a1:1273:5a6b:1a02:f94",
+            "created": "2026-09-13 04:05:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "171.60.233.121",
+            "created": "2026-09-13 04:14:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1047:e5be:8000::",
+            "created": "2026-09-13 04:15:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "202.8.117.141",
+            "created": "2026-09-13 04:28:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:4088:ce87:3dc6:ca9d:a06e:8b85:7ce7",
+            "created": "2026-09-13 04:30:29"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.10.54.11",
+            "created": "2026-09-13 04:30:51"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:1348:3890:1300:7913:4a9d:e28f:6d0b",
+            "created": "2026-09-13 04:32:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:11ae:39a9:8000::",
+            "created": "2026-09-13 04:33:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:4088:ce87:3dc6:ca9d:a06e:8b85:7ce7",
+            "created": "2026-09-13 04:33:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:aa0a:c295:f4d2:4392:1831:a048",
+            "created": "2026-09-13 04:40:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "5.82.56.38",
+            "created": "2026-09-13 04:46:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "5.82.56.38",
+            "created": "2026-09-13 04:47:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:8849:5cf1:d7af:9742:a86d:beac",
+            "created": "2026-09-13 04:53:04"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:c901:218d:cd06:31f:986c:abf9",
+            "created": "2026-09-13 05:04:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "139.64.4.214",
+            "created": "2026-09-13 05:25:13"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c1:540d:5fbf:8000::",
+            "created": "2026-09-13 05:28:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d1:2474:e4be:574:b142:24b8:48a4",
+            "created": "2026-09-13 05:29:10"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.165.28.12",
+            "created": "2026-09-13 05:44:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e2:15e:ba31:8000::",
+            "created": "2026-09-13 05:45:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1047:e5be:8000::",
+            "created": "2026-09-13 05:49:55"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.106.241.94",
+            "created": "2026-09-13 05:51:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.106.241.94",
+            "created": "2026-09-13 05:52:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4568:4927:0:37:7eb3:1d01",
+            "created": "2026-09-13 05:57:33"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:100a:61a:e097:53ff:fe7b:eb6d",
+            "created": "2026-09-13 06:10:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "206.84.228.214",
+            "created": "2026-09-13 06:10:39"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d0:100f:1eb:290d:6a6a:cef7:36a6",
+            "created": "2026-09-13 06:12:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a057:d8b3:698c:a1dd:b401:44b3",
+            "created": "2026-09-13 06:12:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:a057:d8b3:698c:a1dd:b401:44b3",
+            "created": "2026-09-13 06:13:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:751a:fdf0:452c:8a81:8753:c846",
+            "created": "2026-09-13 06:27:37"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "114.79.4.120",
+            "created": "2026-09-13 06:28:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:751a:fdf0:452c:8a81:8753:c846",
+            "created": "2026-09-13 06:28:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7619:f2f3:3a3f:a199:de20:a3c1",
+            "created": "2026-09-13 06:29:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "46.251.215.96",
+            "created": "2026-09-13 06:30:13"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2a05:45c2:50e0:f500:1e7b:fc99:326c:f185",
+            "created": "2026-09-13 06:30:26"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "172.104.55.125",
+            "created": "2026-09-13 06:32:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2726:3c77:c872:23b0:f281:8849",
+            "created": "2026-09-13 06:38:22"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:c901:218d:cd06:31f:986c:abf9",
+            "created": "2026-09-13 06:49:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "59.152.57.215",
+            "created": "2026-09-13 06:53:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:8105:1b88:1640:dfa5:63c1:7138",
+            "created": "2026-09-13 06:59:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "144.79.139.225",
+            "created": "2026-09-13 07:00:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "47.31.137.201",
+            "created": "2026-09-13 07:09:09"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:c901:218d:cd06:31f:986c:abf9",
+            "created": "2026-09-13 07:13:33"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.134.124.31",
+            "created": "2026-09-13 07:14:48"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7529:6902:7b4c:43e9:ce37:2d56",
+            "created": "2026-09-13 07:38:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:7529:6902:7b4c:43e9:ce37:2d56",
+            "created": "2026-09-13 07:54:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:c0b5:c8ee:4aab:272c:f781:3a5c",
+            "created": "2026-09-13 08:00:55"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "153.117.36.69",
+            "created": "2026-09-13 08:36:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:1906:977b:fce8:b51:2841:6dd1",
+            "created": "2026-09-13 08:37:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:540d:5fbf:8000::",
+            "created": "2026-09-13 08:51:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:471c:a018:878:5634:1232:5476",
+            "created": "2026-09-13 08:53:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 09:09:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2404:7c00:4b:71a0:ef2f:f3f7:26c4:9b0e",
+            "created": "2026-09-13 09:38:51"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2404:1c40:495:2473:18d4:be33:77d7:737c",
+            "created": "2026-09-13 09:48:20"
+        },
+        {
+            "event": "vplink_handoff_blocked",
+            "details": {
+                "reason": "returned_before_60_seconds"
+            },
+            "ip": "2404:1c40:495:2473:18d4:be33:77d7:737c",
+            "created": "2026-09-13 09:49:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:caf:e012:4861:9379:457e:b01b",
+            "created": "2026-09-13 10:06:16"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:caf:e012:4861:9379:457e:b01b",
+            "created": "2026-09-13 10:11:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:6280:60c8:76c1:ace0:dff9:f6de",
+            "created": "2026-09-13 10:31:31"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:c0d6:9726:f869:44ff:fe57:eea2",
+            "created": "2026-09-13 10:32:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:4000:126d:4cec:1:0:8d5e:b8c3",
+            "created": "2026-09-13 10:33:18"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e1:1f:c60a:8000::",
+            "created": "2026-09-13 10:38:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e1:1f:c60a:8000::",
+            "created": "2026-09-13 10:44:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:3a80:1b44:75b3:0:5a:957a:f701",
+            "created": "2026-09-13 10:52:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:1b44:75b3:0:5a:957a:f701",
+            "created": "2026-09-13 10:53:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "118.179.207.196",
+            "created": "2026-09-13 11:10:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:ac01:e075:ad5:9f56:a4cb:2e17",
+            "created": "2026-09-13 11:12:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e1:10f3:5246:8000::",
+            "created": "2026-09-13 11:14:24"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "163.61.138.24",
+            "created": "2026-09-13 11:20:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:d08f:c11:43cf:6d6d:574d:4808",
+            "created": "2026-09-13 11:21:26"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:d08f:c11:43cf:6d6d:574d:4808",
+            "created": "2026-09-13 11:24:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:10b9:5fb6:185b:aeff:fe50:5180",
+            "created": "2026-09-13 11:31:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:3a80:42a8:6f43:0:47:2dbf:b701",
+            "created": "2026-09-13 11:34:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40e1:1101:7b93:8000::",
+            "created": "2026-09-13 11:36:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:1348:3890:1300:3ab8:9404:7b9b:19d",
+            "created": "2026-09-13 11:42:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:2405:70ca:7808:3bff:fe1f:8a53",
+            "created": "2026-09-13 11:43:13"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.135.77.247",
+            "created": "2026-09-13 11:50:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:1348:3890:1300:3ab8:9404:7b9b:19d",
+            "created": "2026-09-13 12:08:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "182.185.130.10",
+            "created": "2026-09-13 12:09:00"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.107.78.251",
+            "created": "2026-09-13 12:18:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "157.15.136.30",
+            "created": "2026-09-13 12:19:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "59.152.57.215",
+            "created": "2026-09-13 12:20:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "157.15.136.30",
+            "created": "2026-09-13 12:26:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:2405:70ca:7808:3bff:fe1f:8a53",
+            "created": "2026-09-13 12:58:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "106.192.211.20",
+            "created": "2026-09-13 12:59:30"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "106.192.211.20",
+            "created": "2026-09-13 13:01:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:6287:be40:ca82:dda0:7238:4ccc",
+            "created": "2026-09-13 13:12:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "223.231.228.207",
+            "created": "2026-09-13 13:23:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e3:318d:8fd8:8000::",
+            "created": "2026-09-13 13:36:14"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2cd4:6e59:bc26:d5ff:fe38:3cd9",
+            "created": "2026-09-13 13:36:28"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:5477:b3cf:b9d5:d3f8:27b4:ddc6",
+            "created": "2026-09-13 13:40:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:342e:1617:bc4f:f1ff:fe3d:859f",
+            "created": "2026-09-13 13:49:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:346b:4559:e826:cff:fe32:a791",
+            "created": "2026-09-13 13:51:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2730:80c1:766b:8e8b:3212:680c",
+            "created": "2026-09-13 13:54:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2730:80c1:766b:8e8b:3212:680c",
+            "created": "2026-09-13 13:58:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2730:80c1:766b:8e8b:3212:680c",
+            "created": "2026-09-13 14:00:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2730:80c1:766b:8e8b:3212:680c",
+            "created": "2026-09-13 14:05:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:4bc7:e564:db05:687a:f456:dd66",
+            "created": "2026-09-13 14:07:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:33db:20bf:1:1:7152:bcaa",
+            "created": "2026-09-13 14:16:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:5432:256c:8000::",
+            "created": "2026-09-13 14:27:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:4334:6378:31da:113a:7af4:8c02",
+            "created": "2026-09-13 14:31:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "117.234.250.212",
+            "created": "2026-09-13 15:02:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:f5d:b39f:9605:102b:ce60:6300",
+            "created": "2026-09-13 15:04:12"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 15:05:23"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:3a80:f5d:b39f:9605:102b:ce60:6300",
+            "created": "2026-09-13 15:09:53"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:61a5:abea:cd06:31f:986c:abf9",
+            "created": "2026-09-13 15:11:47"
+        },
+        {
+            "event": "application_added",
+            "details": {
+                "id": 4,
+                "name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:61a5:abea:cd06:31f:986c:abf9",
+            "created": "2026-09-13 15:19:15"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:61a5:abea:cd06:31f:986c:abf9",
+            "created": "2026-09-13 15:19:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:e845:ac3d:b88b:69ff:fe28:69bf",
+            "created": "2026-09-13 15:36:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2400:c600:4720:3629:1:0:c781:4212",
+            "created": "2026-09-13 15:37:46"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:270a:4a80:d439:4cff:fe9d:d3ec",
+            "created": "2026-09-13 15:38:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:d9e4:b501:9015:adff:fea3:9418",
+            "created": "2026-09-13 15:40:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:1900:80b0:30a1::1",
+            "created": "2026-09-13 15:40:52"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:540d:5fbf:8000::",
+            "created": "2026-09-13 15:42:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.105.168.56",
+            "created": "2026-09-13 15:42:09"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "144.48.108.81",
+            "created": "2026-09-13 15:42:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d2:1032:4e97:8000::",
+            "created": "2026-09-13 15:44:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:540d:5fbf:e912:47fc:5b5a:c879",
+            "created": "2026-09-13 15:48:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:b8a5:a7e3::af86:133c",
+            "created": "2026-09-13 15:48:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.105.168.56",
+            "created": "2026-09-13 15:48:58"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:540d:5fbf:8000::",
+            "created": "2026-09-13 15:49:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:540d:5fbf:a1ab:ae35:ae0b:b020",
+            "created": "2026-09-13 15:51:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5da0:3abe:2051:663:3421:4dca",
+            "created": "2026-09-13 15:57:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40e4:17:ce00:545d:aeff:fefb:16dd",
+            "created": "2026-09-13 15:57:08"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c1:10b6:a02f:504b:e7ff:fecb:8178",
+            "created": "2026-09-13 15:58:40"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 15:58:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 16:00:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "42.105.168.56",
+            "created": "2026-09-13 16:01:22"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 16:02:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 16:04:05"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 16:05:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40e4:17:ce00:545d:aeff:fefb:16dd",
+            "created": "2026-09-13 16:06:17"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40e4:17:ce00:545d:aeff:fefb:16dd",
+            "created": "2026-09-13 16:07:56"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c1:10b6:a02f:504b:e7ff:fecb:8178",
+            "created": "2026-09-13 16:08:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 16:09:07"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40e5:3472:de61:1c5d:4cff:fe82:d47e",
+            "created": "2026-09-13 16:10:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:5d90:3b17:0:3c:506f:5c01",
+            "created": "2026-09-13 16:10:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40e2:2f:3942:ec8e:e64d:1cad:5866",
+            "created": "2026-09-13 16:10:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:221d:817b::e48:4fbf",
+            "created": "2026-09-13 16:11:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2402:8100:2213:f63f::e4c:9e64",
+            "created": "2026-09-13 16:11:36"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 16:15:19"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 16:19:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c1:100d:fcb4:4017:54ff:fe38:b50b",
+            "created": "2026-09-13 16:26:49"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 16:36:41"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:b8a5:a7e3::af86:133c",
+            "created": "2026-09-13 16:45:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "106.76.203.189",
+            "created": "2026-09-13 16:45:27"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:5808:828:4601:1c2d:ed4a:68d7:5cb0",
+            "created": "2026-09-13 16:52:29"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c2:6432:8102:8000::",
+            "created": "2026-09-13 16:52:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2804:5808:828:4601:1c2d:ed4a:68d7:5cb0",
+            "created": "2026-09-13 16:53:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 17:00:50"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "186.237.103.223",
+            "created": "2026-09-13 17:04:54"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40c1:5019:7113:7168:4c7b:bd1a:b524",
+            "created": "2026-09-13 17:07:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 17:09:01"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "206.84.228.214",
+            "created": "2026-09-13 17:09:10"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2401:4900:4bc7:e564:7443:a800:9f:be4f",
+            "created": "2026-09-13 17:15:06"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:1020:8131:442a:ffff:fe65:b742",
+            "created": "2026-09-13 17:16:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:46:37"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:47:59"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2401:4900:5efa:8e78:865:a0ff:fed0:f838",
+            "created": "2026-09-13 17:48:47"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:49:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:49:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5efa:8e78:865:a0ff:fed0:f838",
+            "created": "2026-09-13 17:49:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:50:11"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5efa:8e78:865:a0ff:fed0:f838",
+            "created": "2026-09-13 17:51:04"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:5efa:8e78:865:a0ff:fed0:f838",
+            "created": "2026-09-13 17:53:26"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 17:56:16"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 18:01:38"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:3116:16b5:f0ef:53ff:feaf:9461",
+            "created": "2026-09-13 18:04:24"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c2:3116:16b5:f0ef:53ff:feaf:9461",
+            "created": "2026-09-13 18:07:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40d1:2018:5060:dc16:9df8:6119:c8bb",
+            "created": "2026-09-13 18:10:42"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "41.96.120.184",
+            "created": "2026-09-13 18:13:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:343f:5190:bc77:4fff:fef4:ea5c",
+            "created": "2026-09-13 18:16:20"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d1:2018:5060:dc16:9df8:6119:c8bb",
+            "created": "2026-09-13 18:17:56"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:61a5:abea::a36:7027",
+            "created": "2026-09-13 18:18:51"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40d1:2018:5060:dc16:9df8:6119:c8bb",
+            "created": "2026-09-13 18:25:21"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2605:59c0:e66:9910:89da:afbb:8bc6:dd2f",
+            "created": "2026-09-13 18:25:45"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40e5:343f:5190:bc77:4fff:fef4:ea5c",
+            "created": "2026-09-13 18:31:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 18:35:53"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "103.115.199.165",
+            "created": "2026-09-13 18:50:00"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40f4:1009:c6e7:18c1:f1ff:feae:b6b9",
+            "created": "2026-09-13 18:53:57"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40f4:1009:c6e7:18c1:f1ff:feae:b6b9",
+            "created": "2026-09-13 18:57:29"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 19:04:02"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "2409:40f4:1009:c6e7:18c1:f1ff:feae:b6b9",
+            "created": "2026-09-13 19:04:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 19:05:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 19:13:03"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 19:13:14"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "172.255.209.235",
+            "created": "2026-09-13 19:16:43"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:103c:2eec:8000::",
+            "created": "2026-09-13 19:34:39"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "2409:40c1:103c:2eec:8000::",
+            "created": "2026-09-13 19:37:04"
+        },
+        {
+            "event": "admin_login_success",
+            "details": [],
+            "ip": "2401:4900:61a5:abea:a821:3307:7227:a325",
+            "created": "2026-09-13 19:47:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2409:40c1:10ba:9bcf:8000::",
+            "created": "2026-09-13 19:54:25"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "2401:4900:c0b9:bb59:3c4e:6185:10f:6297",
+            "created": "2026-09-13 20:33:34"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 3,
+                "app_name": "HEX CIPHER PROXY"
+            },
+            "ip": "128.1.123.105",
+            "created": "2026-09-13 22:33:32"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 2,
+                "app_name": "MOCO LOCATION"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 22:37:44"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "128.1.123.217",
+            "created": "2026-09-13 22:43:36"
+        },
+        {
+            "event": "license_generated",
+            "details": {
+                "app_id": 4,
+                "app_name": "HEX CHEATS MOD MENU"
+            },
+            "ip": "38.75.82.186",
+            "created": "2026-09-13 22:46:54"
+        }
+    ]
+}

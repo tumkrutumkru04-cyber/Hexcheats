@@ -1,0 +1,48 @@
+{
+    "applications": [
+        {
+            "id": 1,
+            "name": "HEX CHEATS XOS",
+            "game": "HEX CHEATS XOS",
+            "api_url": "https://hex-protocol-git-production.up.railway.app/api/generate/5hour?count=1",
+            "api_type": "default",
+            "status": "inactive",
+            "created": "2026-09-11 19:59:37",
+            "duration_hours": 12,
+            "maintenance": false
+        },
+        {
+            "id": 2,
+            "name": "MOCO LOCATION",
+            "game": "FF & MAX",
+            "api_url": "https://github-production-4fc0.up.railway.app/key_generatehex.php?action=generate",
+            "api_type": "moco",
+            "status": "active",
+            "created": "2026-09-11 19:59:37",
+            "duration_hours": 10,
+            "maintenance": false
+        },
+        {
+            "id": 3,
+            "name": "HEX CIPHER PROXY",
+            "game": "FF MAX",
+            "api_url": "https://hexd.vercel.app/api/hexgen",
+            "api_type": "hexgen",
+            "status": "active",
+            "created": "2026-09-11 19:59:37",
+            "duration_hours": 12,
+            "maintenance": false
+        },
+        {
+            "id": 4,
+            "name": "HEX CHEATS MOD MENU",
+            "game": "FF MAX",
+            "api_url": "https://hexdadyfc-ksystem-production.up.railway.app/key_generatehex.php",
+            "api_type": "moco",
+            "duration_hours": 12,
+            "maintenance": false,
+            "status": "active",
+            "created": "2026-09-13 15:19:15"
+        }
+    ]
+}

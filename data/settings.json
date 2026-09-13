@@ -1,0 +1,30 @@
+{
+    "site_name": "HEX PROTOCOL",
+    "admin_username": "admin",
+    "admin_password": "$2y$10$YuFz//lkutiF0NsB1H9GBOw4SJskqsRoDwoiM1oRDFazVrfPgpM2S",
+    "must_change_password": true,
+    "cooldown_minutes": 1,
+    "referral_code": "HEX2024",
+    "maintenance_mode": false,
+    "api_maintenance": false,
+    "public_generation_enabled": true,
+    "key_duration_hours": 5,
+    "security": {
+        "rate_limit_enabled": true,
+        "rate_limit_window": 60,
+        "rate_limit_requests": 30,
+        "login_max_attempts": 5,
+        "login_lock_minutes": 15,
+        "session_timeout_minutes": 120,
+        "admin_ip_allowlist": [],
+        "blocked_ips": [],
+        "audit_retention_days": 30
+    },
+    "vplink": {
+        "enabled": true,
+        "api_token": "",
+        "completion_window_seconds": 60,
+        "handoff_ttl_seconds": 86400,
+        "block_without_shortener": false
+    }
+}

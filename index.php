@@ -45,9 +45,9 @@ $activeApps = array_values(array_filter($apps['applications'] ?? [], function ($
                         <form id="licenseForm">
                             <div class="card-body p-4">
                                 <div class="row g-3">
-                                    <div class="col-md-6"><label for="app_id" class="form-label">Application</label><select name="app_id" id="app_id" class="form-select" required><option value="">Select Application</option><?php foreach ($activeApps as $app): ?><option value="<?php echo (int)$app['id']; ?>"><?php echo htmlspecialchars($app['name']); ?></option><?php endforeach; ?></select></div>
+                                    <div class="col-md-6"><label for="app_id" class="form-label">Application</label><select name="app_id" id="app_id" class="form-select" required><option value="">Select Application</option><?php foreach ($activeApps as $app): ?><option value="<?php echo (int)$app['id']; ?>" data-duration="<?php echo (int)($app['duration_hours'] ?? 5); ?>" data-maintenance="<?php echo !empty($app['maintenance']) ? '1' : '0'; ?>"><?php echo htmlspecialchars($app['name']); ?><?php echo !empty($app['maintenance']) ? ' (maintenance)' : ''; ?></option><?php endforeach; ?></select></div>
                                     <div class="col-md-6"><label for="max_devices" class="form-label">Devices</label><div class="input-group"><input type="number" name="max_devices" id="max_devices" class="form-control" value="1" disabled><span class="input-group-text">device</span></div></div>
-                                    <div class="col-md-6"><label for="duration" class="form-label">Duration</label><select name="duration" id="duration" class="form-select" disabled><option value="5" selected>10 Hours</option></select></div>
+                                    <div class="col-md-6"><label for="duration" class="form-label">Duration</label><select name="duration" id="duration" class="form-select" disabled><option value="5" selected>Choose an application</option></select></div>
                                     <div class="col-md-6"><label for="vip_key" class="form-label">Key Type</label><select name="vip_key" id="vip_key" class="form-select" disabled><option value="1" selected>FREE</option></select></div>
                                 </div>
                                 <div id="validationResult" class="mt-3" role="status" aria-live="polite"></div>
@@ -66,8 +66,12 @@ $activeApps = array_values(array_filter($apps['applications'] ?? [], function ($
     <script>
     $('#licenseForm').on('submit', function(e) {
         e.preventDefault();
-        const appId = $('#app_id').val();
+        const selected = $('#app_id option:selected');
+        const appId = selected.val();
+        const duration = selected.data('duration') || 5;
+        $('#duration').html('<option value="'+duration+'" selected>'+duration+' Hours</option>');
         if (!appId) { $('#validationResult').html('<div class="alert alert-warning mb-0"><i class="bi bi-exclamation-triangle me-1"></i>Please select an application.</div>'); return; }
+        if (selected.data('maintenance') == 1) { $('#validationResult').html('<div class="alert alert-warning mb-0">This API is under maintenance. Choose another API.</div>'); return; }
         $('#btn_submit').prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Generating...');
         $('#validationResult').html('');
         $.ajax({url:'api.php?action=generate', method:'POST', data:{app_id:appId}, dataType:'json', success:function(response){ if(response.success){ window.location.href='redirect.php?handoff='+encodeURIComponent(response.handoff); } else { $('#btn_submit').prop('disabled', false).html('<i class="bi bi-key-fill me-1"></i>Generate'); $('#validationResult').html('<div class="alert alert-danger mb-0"><i class="bi bi-exclamation-triangle me-1"></i>'+escapeHtml(response.error||'Failed to generate license')+'</div>'); } }, error:function(){ $('#btn_submit').prop('disabled', false).html('<i class="bi bi-key-fill me-1"></i>Generate'); $('#validationResult').html('<div class="alert alert-danger mb-0"><i class="bi bi-wifi-off me-1"></i>An error occurred. Please try again.</div>'); }});

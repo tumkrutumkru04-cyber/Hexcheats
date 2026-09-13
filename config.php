@@ -73,6 +73,7 @@ function getDefaultSettings() {
         'maintenance_mode' => false,
         'api_maintenance' => false,
         'public_generation_enabled' => true,
+        'key_duration_hours' => 5,
         'security' => [
             'rate_limit_enabled' => true,
             'rate_limit_window' => 60,
@@ -139,9 +140,47 @@ if (!is_file(APPLICATIONS_FILE)) {
                 'api_type' => 'moco',
                 'status' => 'active',
                 'created' => date('Y-m-d H:i:s')
+            ],
+            [
+                'id' => 3,
+                'name' => 'HEXGEN API',
+                'game' => 'HEXGEN',
+                'api_url' => 'https://hexd.vercel.app/api/hexgen',
+                'api_type' => 'hexgen',
+                'status' => 'active',
+                'created' => date('Y-m-d H:i:s')
             ]
         ]
     ]);
+}
+
+$existingApplications = getJsonData(APPLICATIONS_FILE);
+$existingApplications['applications'] = is_array($existingApplications['applications'] ?? null) ? $existingApplications['applications'] : [];
+foreach ($existingApplications['applications'] as &$existingApplication) {
+    $existingApplication['duration_hours'] = min(8760, max(1, (int)($existingApplication['duration_hours'] ?? 5)));
+    $existingApplication['maintenance'] = !empty($existingApplication['maintenance']);
+}
+unset($existingApplication);
+saveJsonData(APPLICATIONS_FILE, $existingApplications);
+$hasHexgen = false;
+foreach ($existingApplications['applications'] as $existingApplication) {
+    if (($existingApplication['api_url'] ?? '') === 'https://hexd.vercel.app/api/hexgen') { $hasHexgen = true; break; }
+}
+if (!$hasHexgen) {
+    $nextApplicationId = 1;
+    foreach ($existingApplications['applications'] as $existingApplication) $nextApplicationId = max($nextApplicationId, (int)($existingApplication['id'] ?? 0) + 1);
+    $existingApplications['applications'][] = [
+        'id' => $nextApplicationId,
+        'name' => 'HEXGEN API',
+        'game' => 'HEXGEN',
+        'api_url' => 'https://hexd.vercel.app/api/hexgen',
+        'api_type' => 'hexgen',
+        'duration_hours' => 5,
+        'maintenance' => false,
+        'status' => 'active',
+        'created' => date('Y-m-d H:i:s')
+    ];
+    saveJsonData(APPLICATIONS_FILE, $existingApplications);
 }
 
 foreach ([
@@ -331,6 +370,22 @@ function generateKeyFromAPI($apiUrl, $apiType = 'default', $count = 1) {
     }
     if (strlen($response) > 262144) return ['success' => false, 'error' => 'Key provider response is too large'];
     $data = json_decode($response, true);
+    if ($apiType === 'hexgen') {
+        if (!is_array($data) || ($data['status'] ?? false) !== true || trim((string)($data['key'] ?? '')) === '') return ['success' => false, 'error' => 'Invalid HEXGEN API response'];
+        $validity = cleanText($data['validity'] ?? '', 80);
+        $durationValue = 5;
+        if (preg_match('/(\d+(?:\.\d+)?)/', $validity, $matches)) $durationValue = (float)$matches[1];
+        return [
+            'success' => true,
+            'keys' => [cleanText($data['key'], 160)],
+            'key_type' => 'HEXGEN',
+            'duration_value' => $durationValue,
+            'duration_type' => 'hours',
+            'validity' => $validity,
+            'expires_at' => cleanText($data['expires_at'] ?? '', 80),
+            'max_devices' => max(1, (int)($data['max_devices'] ?? 1))
+        ];
+    }
     if ($apiType === 'moco') {
         if (!is_array($data) || ($data['ok'] ?? false) !== true) return ['success' => false, 'error' => 'Invalid API response'];
         return [

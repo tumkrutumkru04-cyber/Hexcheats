@@ -76,7 +76,7 @@ body {
 .public-feature h3 { font-size: .91rem; font-weight: 700; margin: 10px 0 5px; }
 .public-feature p { color: var(--hp-muted); font-size: .78rem; margin: 0; line-height: 1.55; }
 .public-metric { min-height: 86px; display: flex; align-items: center; }
-.navbar-toggler { border-color: var(--hp-border); padding: .35rem .55rem; border-radius: 9px; }
+.navbar-toggler { display:inline-flex; align-items:center; justify-content:center; border-color:var(--hp-border); padding:.35rem .55rem; min-width:38px; min-height:36px; border-radius:9px; line-height:1; }
 .navbar-toggler:focus { box-shadow: 0 0 0 .18rem rgba(124,108,255,.14); }
 .result-card .card-body { overflow-wrap: anywhere; }
 .auth-page { min-height: 100vh; padding-top: 68px; display: flex; flex-direction: column; }

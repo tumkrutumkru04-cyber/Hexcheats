@@ -123,16 +123,17 @@ function handleAddApplication() {
     $game = cleanText($_POST['game'] ?? '', 100);
     $apiUrl = trim($_POST['api_url'] ?? '');
     $apiType = cleanText($_POST['api_type'] ?? 'default', 30);
+    $logo = trim((string)($_POST['logo'] ?? ''));
     $durationHours = min(8760, max(1, (int)($_POST['duration_hours'] ?? 5)));
     $maintenance = !empty($_POST['maintenance']);
-    if ($name === '' || $game === '' || !isSafeRemoteUrl($apiUrl)) return ['success' => false, 'error' => 'Enter valid application details and a public HTTPS/HTTP API URL'];
+    if ($name === '' || $game === '' || !isSafeRemoteUrl($apiUrl) || ($logo !== '' && !isSafeRemoteUrl($logo))) return ['success' => false, 'error' => 'Enter valid application details and public HTTP/HTTPS URLs'];
     if (!in_array($apiType, ['default', 'moco', 'hexgen'], true)) $apiType = 'default';
 
     $apps = getJsonData(APPLICATIONS_FILE);
     $apps['applications'] = is_array($apps['applications'] ?? null) ? $apps['applications'] : [];
     $newId = 1;
     foreach ($apps['applications'] as $app) $newId = max($newId, (int)($app['id'] ?? 0) + 1);
-    $apps['applications'][] = ['id' => $newId, 'name' => $name, 'game' => $game, 'api_url' => $apiUrl, 'api_type' => $apiType, 'duration_hours' => $durationHours, 'maintenance' => $maintenance, 'status' => 'active', 'created' => date('Y-m-d H:i:s')];
+    $apps['applications'][] = ['id' => $newId, 'name' => $name, 'game' => $game, 'api_url' => $apiUrl, 'api_type' => $apiType, 'logo' => $logo, 'duration_hours' => $durationHours, 'maintenance' => $maintenance, 'status' => 'active', 'created' => date('Y-m-d H:i:s')];
     saveJsonData(APPLICATIONS_FILE, $apps);
     recordAudit('application_added', ['id' => $newId, 'name' => $name]);
     return ['success' => true, 'message' => 'Application added successfully'];
@@ -144,17 +145,18 @@ function handleEditApplication() {
     $game = cleanText($_POST['game'] ?? '', 100);
     $apiUrl = trim($_POST['api_url'] ?? '');
     $apiType = cleanText($_POST['api_type'] ?? 'default', 30);
+    $logo = trim((string)($_POST['logo'] ?? ''));
     $durationHours = min(8760, max(1, (int)($_POST['duration_hours'] ?? 5)));
     $maintenance = !empty($_POST['maintenance']);
     $status = ($_POST['status'] ?? 'active') === 'inactive' ? 'inactive' : 'active';
-    if (!$id || $name === '' || $game === '' || !isSafeRemoteUrl($apiUrl)) return ['success' => false, 'error' => 'Enter valid application details and a public HTTPS/HTTP API URL'];
+    if (!$id || $name === '' || $game === '' || !isSafeRemoteUrl($apiUrl) || ($logo !== '' && !isSafeRemoteUrl($logo))) return ['success' => false, 'error' => 'Enter valid application details and public HTTP/HTTPS URLs'];
     if (!in_array($apiType, ['default', 'moco', 'hexgen'], true)) $apiType = 'default';
 
     $apps = getJsonData(APPLICATIONS_FILE);
     $found = false;
     foreach ($apps['applications'] as &$app) {
         if ((int)($app['id'] ?? 0) === $id) {
-            $app['name'] = $name; $app['game'] = $game; $app['api_url'] = $apiUrl; $app['api_type'] = $apiType; $app['duration_hours'] = $durationHours; $app['maintenance'] = $maintenance; $app['status'] = $status;
+            $app['name'] = $name; $app['game'] = $game; $app['api_url'] = $apiUrl; $app['api_type'] = $apiType; $app['logo'] = $logo; $app['duration_hours'] = $durationHours; $app['maintenance'] = $maintenance; $app['status'] = $status;
             $found = true; break;
         }
     }

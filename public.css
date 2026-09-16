@@ -34,7 +34,7 @@ body {
 .public-navbar .nav-link:hover, .public-navbar .nav-link.active { color: var(--hp-primary); background: rgba(124,108,255,.10); }
 .public-navbar .nav-link:active { transform: scale(.97); }
 .public-main { min-height: calc(100vh - 145px); padding: 48px 0 64px; }
-.public-footer { background: rgba(255,255,255,.70); border-top: 1px solid var(--hp-border); color: #7b8498; backdrop-filter: blur(14px); }
+.public-footer { background: rgba(255,255,255,.70); border-top: 1px solid var(--hp-border); color: #7b8498; padding-bottom:calc(1rem + 24px + env(safe-area-inset-bottom, 0px)) !important; backdrop-filter: blur(14px); }
 .public-footer a { color: #7b8498; text-decoration: none; transition: color .18s var(--hp-ease); }
 .public-footer a:hover { color: var(--hp-primary); }
 .card, .public-feature {

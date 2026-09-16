@@ -1,18 +1,82 @@
 <?php
 require_once 'config.php';
+
 $apps = getJsonData(APPLICATIONS_FILE);
-$activeApps = array_values(array_filter($apps['applications'] ?? [], function ($app) { return ($app['status'] ?? '') === 'active'; }));
-$logo = 'https://i.ibb.co/8LJmm2FH/20260904-033616.png';
+$activeApps = array_values(array_filter($apps['applications'] ?? [], function ($app) {
+    return ($app['status'] ?? '') === 'active';
+}));
 ?><!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#6366f1"><meta name="description" content="HEX PROTOCOL — secure license generation platform"><title>HEX PROTOCOL — Generate License</title>
-<link rel="icon" href="<?php echo htmlspecialchars($logo, ENT_QUOTES); ?>" type="image/png"><link rel="stylesheet" href="public.css">
-</head><body><div class="site-shell">
-<header class="site-header"><div class="nav-wrap"><a class="brand" href="index.php"><img class="brand-logo" src="<?php echo htmlspecialchars($logo, ENT_QUOTES); ?>" alt="HEX PROTOCOL"><span class="brand-name">HEX PROTOCOL</span></a><button class="nav-toggle" id="navToggle" aria-label="Open navigation">☰</button><nav class="nav-links" id="navLinks"><a class="active" href="index.php">Generate</a><a href="downloadapk.php">Downloads</a><a href="login.php">Admin Login</a><a class="nav-cta" href="#generator">Get a Key</a></nav></div></header>
-<main class="page-wrap">
-<section class="hero"><div class="eyebrow"><span class="status-dot"></span> Secure key service online</div><h1>Access your next <span>level</span>.</h1><p>Generate a license through your selected HEX PROTOCOL application provider with a fast, protected, mobile-ready experience.</p><div class="hero-actions"><a class="btn btn-primary" href="#generator">Generate License</a><a class="btn" href="#how-it-works">How it works</a></div></section>
-<div class="status-card"><span class="status-dot"></span><div><strong>Platform protection is active</strong><p>Provider routing, cooldown validation, request limits, and secure handoff verification help keep the public flow reliable.</p></div></div>
-<section class="generator-grid" id="generator"><div class="panel"><div class="panel-head"><div><h2>Create Free License</h2><p>Choose an application and generate access.</p></div><span class="online-badge"><span class="status-dot"></span> Online</span></div><form id="licenseForm"><div class="form-body"><div class="field"><label for="app_id">Application</label><select class="control" name="app_id" id="app_id" required><option value="">Select Application</option><?php foreach ($activeApps as $app): ?><option value="<?php echo (int)$app['id']; ?>" data-duration="<?php echo (int)($app['duration_hours'] ?? 5); ?>" data-maintenance="<?php echo !empty($app['maintenance']) ? '1' : '0'; ?>"><?php echo htmlspecialchars($app['name']); ?><?php echo !empty($app['maintenance']) ? ' — maintenance' : ''; ?></option><?php endforeach; ?></select></div><div class="field-grid"><div class="field"><label for="max_devices">Devices</label><input class="control" id="max_devices" value="1 device" readonly></div><div class="field"><label for="duration">Duration</label><select class="control" id="duration" disabled><option>Choose an application</option></select></div></div><div class="field"><label for="vip_key">Key Type</label><select class="control" id="vip_key" disabled><option>Free Key</option></select></div><div id="validationResult" aria-live="polite"></div></div><div class="cooldown">✓ <span>One request per cooldown window.</span></div><div class="form-foot"><button class="btn btn-primary btn-block" type="submit" id="btn_submit"><span id="btnIcon">⌁</span><span id="btnText">Generate License</span></button></div></form></div><aside><div class="feature-card"><div class="feature-icon">ϟ</div><h3>Fast provider routing</h3><p>Your request is sent to the active provider for the selected application.</p></div><div class="feature-card"><div class="feature-icon">♢</div><h3>Protected requests</h3><p>Cooldowns, validation, and signed handoffs help keep access clean.</p></div><div class="feature-card"><div class="feature-icon">▣</div><h3>Mobile optimized</h3><p>A focused interface that stays clear on phones, tablets, and desktop devices.</p></div></aside></section>
-<section class="page-section" id="how-it-works"><div class="section-heading"><h2>Simple and ready</h2><p>Three steps from application selection to secure key delivery.</p></div><div class="field-grid"><div class="feature-card"><div class="feature-icon">1</div><h3>Select</h3><p>Choose an active application from the provider catalog.</p></div><div class="feature-card"><div class="feature-icon">2</div><h3>Verify</h3><p>Complete the secure handoff flow for the generated license.</p></div><div class="feature-card"><div class="feature-icon">3</div><h3>Use</h3><p>Copy your key and keep it private for your application session.</p></div></div></section>
-</main><footer class="footer"><span>© 2018–<?php echo date('Y'); ?> HEX PROTOCOL</span><span class="socials"><a href="https://t.me/+NBy4GLVQGYFiOTU1" target="_blank" rel="noopener">Telegram</a><a href="https://youtube.com/@define_hex?si=61l7qUBxotBPO3q" target="_blank" rel="noopener">YouTube</a></span></footer></div>
-<script>const navToggle=document.getElementById('navToggle'),navLinks=document.getElementById('navLinks');navToggle?.addEventListener('click',()=>navLinks.classList.toggle('open'));document.addEventListener('click',e=>{if(navLinks&&!navLinks.contains(e.target)&&e.target!==navToggle)navLinks.classList.remove('open')});const form=document.getElementById('licenseForm'),app=document.getElementById('app_id'),duration=document.getElementById('duration'),result=document.getElementById('validationResult'),button=document.getElementById('btn_submit');app.addEventListener('change',()=>{const o=app.options[app.selectedIndex],d=o.dataset.duration||5;duration.innerHTML='<option>'+d+' Hours</option>'});function esc(v){return String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]))}form.addEventListener('submit',e=>{e.preventDefault();const o=app.options[app.selectedIndex];if(!app.value){result.innerHTML='<div class="alert alert-warning">Please select an application.</div>';return}if(o.dataset.maintenance==='1'){result.innerHTML='<div class="alert alert-warning">This application is under maintenance. Choose another provider.</div>';return}button.disabled=true;button.innerHTML='<span class="spinner"></span> Generating...';result.innerHTML='';fetch('api.php?action=generate',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:new URLSearchParams({app_id:app.value})}).then(r=>r.json()).then(data=>{if(data.success){location.href='redirect.php?handoff='+encodeURIComponent(data.handoff)}else{throw new Error(data.error||'Unable to generate a license')}}).catch(err=>{button.disabled=false;button.innerHTML='<span>⌁</span> Generate License';result.innerHTML='<div class="alert alert-danger">'+esc(err.message)+'</div>'})});</script></body></html>
+<html data-bs-theme="light" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" href="https://i.ibb.co/8LJmm2FH/20260904-033616.png" type="image/png">
+    <title>HEX PROTOCOL - Get Free Key - Global</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="public.css">
+    <script>(function(){var t=localStorage.getItem('selectedTheme')||'light';document.documentElement.setAttribute('data-bs-theme',t==='dark'?'dark':'light');})();</script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg public-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.php"><img src="https://i.ibb.co/8LJmm2FH/20260904-033616.png" alt="HEX PROTOCOL"><span>HEX PROTOCOL</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#publicNavbar" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="publicNavbar"><ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+                <li class="nav-item"><a class="nav-link active" href="index.php">Key Free</a></li>
+                <li class="nav-item"><a class="nav-link" href="downloadapk.php">Downloads</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="register.php">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" id="bd-theme" title="Toggle theme"><i class="bi bi-moon-stars" id="bd-theme-icon"></i></a></li>
+            </ul></div>
+        </div>
+    </nav>
+
+    <main class="public-main">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+                <div class="col-lg-8">
+                    <div class="card card-primary card-outline" id="createLicenseCard">
+                        <div class="card-header d-flex justify-content-between align-items-center py-3">
+                            <div><h2 class="card-title">Create Free License</h2><div class="card-subtitle mt-1">Choose your application and generate access.</div></div>
+                            <span class="badge text-bg-primary">Global</span>
+                        </div>
+                        <form id="licenseForm">
+                            <div class="card-body p-4">
+                                <div class="row g-3">
+                                    <div class="col-md-6"><label for="app_id" class="form-label">Application</label><select name="app_id" id="app_id" class="form-select" required><option value="">Select Application</option><?php foreach ($activeApps as $app): ?><option value="<?php echo (int)$app['id']; ?>" data-duration="<?php echo (int)($app['duration_hours'] ?? 5); ?>" data-maintenance="<?php echo !empty($app['maintenance']) ? '1' : '0'; ?>"><?php echo htmlspecialchars($app['name']); ?><?php echo !empty($app['maintenance']) ? ' (maintenance)' : ''; ?></option><?php endforeach; ?></select></div>
+                                    <div class="col-md-6"><label for="max_devices" class="form-label">Devices</label><div class="input-group"><input type="number" name="max_devices" id="max_devices" class="form-control" value="1" disabled><span class="input-group-text">device</span></div></div>
+                                    <div class="col-md-6"><label for="duration" class="form-label">Duration</label><select name="duration" id="duration" class="form-select" disabled><option value="5" selected>Choose an application</option></select></div>
+                                    <div class="col-md-6"><label for="vip_key" class="form-label">Key Type</label><select name="vip_key" id="vip_key" class="form-select" disabled><option value="1" selected>FREE</option></select></div>
+                                </div>
+                                <div id="validationResult" class="mt-3" role="status" aria-live="polite"></div>
+                            </div>
+                            <div class="card-footer bg-transparent d-flex flex-column flex-sm-row align-items-sm-center justify-content-between gap-3 p-3"><small class="text-muted"><i class="bi bi-shield-check me-1"></i>One request per cooldown window.</small><button type="submit" class="btn btn-primary px-4" id="btn_submit"><i class="bi bi-key-fill me-1"></i>Generate</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4"><div class="card h-100"><div class="card-body p-4"><h3 class="card-title mb-3">Simple and ready</h3><div class="public-feature mb-3"><i class="bi bi-lightning-charge-fill"></i><h3>Fast provider routing</h3><p>Your request is sent to the active provider for the selected application.</p></div><div class="public-feature mb-3"><i class="bi bi-shield-lock-fill"></i><h3>Protected requests</h3><p>Cooldowns and validation help keep the public flow clean and reliable.</p></div><div class="public-feature"><i class="bi bi-phone-fill"></i><h3>Works on mobile</h3><p>A compact layout that stays clear on phones, tablets, and desktop.</p></div></div></div></div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="public-footer py-3"><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"><small>&copy; 2018 - 2026 HEX PROTOCOL</small><div class="d-flex gap-3"><a href="https://t.me/+NBy4GLVQGYFiOTU1" target="_blank" rel="noopener" aria-label="Telegram"><i class="bi bi-telegram"></i></a><a href="https://youtube.com/@define_hex?si=61l7qUBxotBPO3q" target="_blank" rel="noopener" aria-label="Youtube"><i class="bi bi-youtube"></i></a></div></div></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script><script src="public.js"></script>
+    <script>
+    $('#licenseForm').on('submit', function(e) {
+        e.preventDefault();
+        const selected = $('#app_id option:selected');
+        const appId = selected.val();
+        const duration = selected.data('duration') || 5;
+        $('#duration').html('<option value="'+duration+'" selected>'+duration+' Hours</option>');
+        if (!appId) { $('#validationResult').html('<div class="alert alert-warning mb-0"><i class="bi bi-exclamation-triangle me-1"></i>Please select an application.</div>'); return; }
+        if (selected.data('maintenance') == 1) { $('#validationResult').html('<div class="alert alert-warning mb-0">This API is under maintenance. Choose another API.</div>'); return; }
+        $('#btn_submit').prop('disabled', true).html('<span class="spinner-border spinner-border-sm me-1"></span>Generating...');
+        $('#validationResult').html('');
+        $.ajax({url:'api.php?action=generate', method:'POST', data:{app_id:appId}, dataType:'json', success:function(response){ if(response.success){ window.location.href='redirect.php?handoff='+encodeURIComponent(response.handoff); } else { $('#btn_submit').prop('disabled', false).html('<i class="bi bi-key-fill me-1"></i>Generate'); $('#validationResult').html('<div class="alert alert-danger mb-0"><i class="bi bi-exclamation-triangle me-1"></i>'+escapeHtml(response.error||'Failed to generate license')+'</div>'); } }, error:function(){ $('#btn_submit').prop('disabled', false).html('<i class="bi bi-key-fill me-1"></i>Generate'); $('#validationResult').html('<div class="alert alert-danger mb-0"><i class="bi bi-wifi-off me-1"></i>An error occurred. Please try again.</div>'); }});
+    });
+    function escapeHtml(value){return String(value).replace(/[&<>'"]/g,function(char){return {'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#039;','"':'&quot;'}[char];});}
+    </script>
+</body>
+</html>
